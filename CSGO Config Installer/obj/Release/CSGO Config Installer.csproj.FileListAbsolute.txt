@@ -1,0 +1,9 @@
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\bin\Release\CSGO Config Installer.exe.config
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\bin\Release\CSGO Config Installer.exe
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\bin\Release\CSGO Config Installer.pdb
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\obj\Release\CSGO_Config_Installer.Form1.resources
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\obj\Release\CSGO_Config_Installer.Properties.Resources.resources
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\obj\Release\CSGO Config Installer.csproj.GenerateResource.Cache
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\obj\Release\CSGO Config Installer.exe
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\obj\Release\CSGO Config Installer.pdb
+C:\Users\gresan6\Dropbox\C#\CSGO Config Installer\CSGO Config Installer\obj\Release\CSGO Config Installer.csprojResolveAssemblyReference.cache
