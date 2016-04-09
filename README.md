@@ -1,4 +1,2 @@
 # CSGO-Config-Installer
-Installs csgo configs on all steam accounts
-
-Download: https://github.com/gresan6/CSGO-Config-Installer/blob/master/CSGO%20Config%20Installer/bin/Release/CSGO%20Config%20Installer.exe?raw=true
+Did you find a config which you really want to use, but you're not able to due to steam's annyoing update changing the location of where configs are installed?
