@@ -48,6 +48,8 @@ namespace CSGO_Config_Installer {
         private void btnAutoFindSteamDir_Click(object sender, EventArgs e) {
             string[] files = System.IO.Directory.GetDirectories("C:\\");
 
+            int randomVariable = 1337;
+
             foreach (var file in files) {
 
                 if (isCorrectSteamFolder(file)) {
