@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace CSGO_Config_Installer {
 
@@ -46,28 +47,33 @@ namespace CSGO_Config_Installer {
         }
 
         private void btnAutoFindSteamDir_Click(object sender, EventArgs e) {
-            string[] files = System.IO.Directory.GetDirectories("C:\\");
+            DriveInfo[] drives = DriveInfo.GetDrives();
 
-            int randomVariable = 1337;
-
-            foreach (var file in files) {
-
-                if (isCorrectSteamFolder(file)) {
-                    tbSteamDir.Text = file;
-                }
-
+            foreach (var drive in drives) {
                 try {
-                    string[] files2 = System.IO.Directory.GetDirectories(file);
+                    string[] files = System.IO.Directory.GetDirectories(drive.Name);
 
-                    foreach (var file2 in files2) {
-                        if (isCorrectSteamFolder(file2)) {
-                            tbSteamDir.Text = file2;
+                    foreach (var file in files) {
+
+                        if (isCorrectSteamFolder(file)) {
+                            tbSteamDir.Text = file;
                         }
 
+                        try {
+                            string[] files2 = System.IO.Directory.GetDirectories(file);
+
+                            foreach (var file2 in files2) {
+                                if (isCorrectSteamFolder(file2)) {
+                                    tbSteamDir.Text = file2;
+                                }
+
+                            }
+                        }
+                        catch (Exception ioe) {
+                        }
                     }
                 }
-                catch (Exception) {
-                }
+                catch (Exception) { }
             }
         }
 
