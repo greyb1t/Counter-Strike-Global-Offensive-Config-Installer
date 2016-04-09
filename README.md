@@ -1,4 +1,4 @@
-# CSGO-Config-Installer
+# Counter Strike Global Offensive Config Installer
 Did you find a config which you really want to use, but you're not able to due to steam's annyoing update changing the location of where configs are installed?
 
 With this tool you can very easy install configs for all your accounts easier than ever!
