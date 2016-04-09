@@ -17,13 +17,21 @@
 [Rr]eleases/
 x64/
 x86/
+<<<<<<< HEAD
 build/
+=======
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 bld/
 [Bb]in/
 [Oo]bj/
 
 # Visual Studio 2015 cache/options directory
 .vs/
+<<<<<<< HEAD
+=======
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -74,6 +82,10 @@ _Chutzpah*
 ipch/
 *.aps
 *.ncb
+<<<<<<< HEAD
+=======
+*.opendb
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 *.opensdf
 *.sdf
 *.cachefile
@@ -82,6 +94,10 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+<<<<<<< HEAD
+=======
+*.sap
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 
 # TFS 2012 Local Workspace
 $tf/
@@ -106,6 +122,10 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+<<<<<<< HEAD
+=======
+nCrunchTemp_*
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 
 # MightyMoose
 *.mm.*
@@ -133,11 +153,17 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+<<<<<<< HEAD
 ## TODO: Comment the next line if you want to checkin your
 ## web deploy settings but do note that will include unencrypted
 ## passwords
 #*.pubxml
 
+=======
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 *.publishproj
 
 # NuGet Packages
@@ -148,6 +174,7 @@ publish/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
+<<<<<<< HEAD
 
 # Windows Azure Build Output
 csx/
@@ -155,6 +182,26 @@ csx/
 
 # Windows Store app package directory
 AppPackages/
+=======
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Microsoft Azure ApplicationInsights config file
+ApplicationInsights.config
+
+# Windows Store app package directory
+AppPackages/
+BundleArtifacts/
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -164,7 +211,10 @@ AppPackages/
 
 # Others
 ClientBin/
+<<<<<<< HEAD
 [Ss]tyle[Cc]op.*
+=======
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 ~$*
 *~
 *.dbmdl
@@ -197,6 +247,12 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+<<<<<<< HEAD
+=======
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
@@ -206,7 +262,23 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
+<<<<<<< HEAD
 # LightSwitch generated files
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+=======
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
+
+# FAKE - F# Make
+.fake/
+>>>>>>> 5288a03c7be495047a4019d06f5c03d4617da51c
